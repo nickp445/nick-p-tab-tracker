@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon lint src/app.js --exec",
+    "start": "nodemon src/app.js",
     "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "author": "",
